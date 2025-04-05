@@ -1,0 +1,33 @@
+# dependencies
+/node_modules
+
+# production
+/dist
+
+# build artifacts
+.vite
+
+# local env files
+.env
+.env.*.local
+
+# system files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS metadata
+*.swp
+
+# lockfiles (optional, if using a different package manager)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
