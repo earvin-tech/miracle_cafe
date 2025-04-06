@@ -6,8 +6,8 @@ export default function Header() {
   
     return (
       <>
-        <header className="flex items-center justify-between px-6 py-4 bg-white shadow-md">
-          <h1 className="text-xl font-bold text-gray-800">Miracle Cafe</h1>
+        <header className="flex items-center justify-between px-6 py-4 bg-[#FAEADD] shadow-md">
+          <h1 className="text-xl font-lemon text-black-800">Miracle Cafe</h1>
   
           <button
             className="md:hidden text-gray-700"
@@ -26,7 +26,7 @@ export default function Header() {
         </header>
   
         {menuOpen && (
-          <nav className="flex flex-col md:hidden gap-4 px-6 py-4 bg-white shadow-md">
+          <nav className="flex flex-col md:hidden items-center text-center gap-4 px-6 py-4 bg-lightgray/30 shadow-md">
             <a href="#">Home</a>
             <a href="#">About Us</a>
             <a href="#">Location</a>
