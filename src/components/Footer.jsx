@@ -17,7 +17,7 @@ export default function Footer() {
           {/* Logo & Social Icons Center Column */}
           <div className="centerContent flex flex-col items-center gap-y-4">
             <img
-              src="/favicon_miracle2.png"
+              src="/site_images/footer_image.png"
               alt="Miracle Cafe logo"
               className="w-20 h-20 object-contain"
             />
@@ -26,21 +26,21 @@ export default function Footer() {
                 <img
                   src="/icons/instagram_icon.png"
                   alt="Instagram"
-                  className="h-10 w-10 object-contain"
+                  className="h-12 w-12 object-contain"
                 />
               </a>
               <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <img
                   src="/icons/facebook_icon.png"
                   alt="Facebook"
-                  className="h-10 w-10 object-contain"
+                  className="h-12 w-12 object-contain"
                 />
               </a>
               <a href="#" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
                 <img
                   src="/icons/tiktok_icon.png"
                   alt="TikTok"
-                  className="h-10 w-10 object-contain"
+                  className="h-12 w-12 object-contain"
                 />
               </a>
             </div>
@@ -53,7 +53,9 @@ export default function Footer() {
             <p>
               Address: 6/54-58 Kilby Rd
               <br />
-              Kew East VIC 3102
+              Kew East
+              <br /> 
+              VIC 3102
             </p>
           </div>
   
