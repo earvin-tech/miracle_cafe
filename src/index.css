@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+    @apply overflow-x-hidden overscroll-none;
+}
+
 @font-face {
     font-family: 'Lemon Milk';
     src: url('/fonts/LEMONMILK-Bold.woff2');
