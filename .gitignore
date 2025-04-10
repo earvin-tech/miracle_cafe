@@ -27,6 +27,9 @@ pnpm-debug.log*
 # OS metadata
 *.swp
 
+# Licensed font
+/public/fonts/Kopik-Regular.woff2
+
 # lockfiles (optional, if using a different package manager)
 # package-lock.json
 # yarn.lock

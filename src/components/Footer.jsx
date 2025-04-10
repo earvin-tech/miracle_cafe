@@ -8,10 +8,10 @@ export default function Footer() {
           {/* Opening Hours */}
           <div className="openingHours text-center sm:text-left">
             <p className="font-semibold">Opening Hours:</p>
-            <p>Mon: Closed</p>
-            <p>Tue-Fri: 7am-3pm</p>
-            <p>Sat: 8am-2pm</p>
-            <p>Sun: Closed</p>
+            <p className="font-kopik">Mon: Closed</p>
+            <p className="font-kopik">Tue-Fri: 7am-3pm</p>
+            <p className="font-kopik">Sat: 8am-2pm</p>
+            <p className="font-kopik">Sun: Closed</p>
           </div>
   
           {/* Logo & Social Icons Center Column */}
@@ -49,8 +49,8 @@ export default function Footer() {
           {/* Contact Info */}
           <div className="contactUs text-center sm:text-right">
             <p className="font-semibold">Contact Us!</p>
-            <p>Mobile: 0494 349 894</p>
-            <p>
+            <p className="font-kopik">Mobile: 0494 349 894</p>
+            <p className="font-kopik">
               Address: 6/54-58 Kilby Rd
               <br />
               Kew East

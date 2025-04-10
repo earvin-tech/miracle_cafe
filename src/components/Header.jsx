@@ -31,7 +31,7 @@ export default function Header() {
           {menuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
 
-        <nav className="hidden md:flex gap-6 text-black-700">
+        <nav className="hidden md:flex gap-6 font-kopik text-black-700">
           <a href="#">Home</a>
           <a href="#">About Us</a>
           <a href="#">Location</a>
@@ -40,12 +40,17 @@ export default function Header() {
       </header>
 
       {menuOpen && (
-        <nav className="flex flex-col md:hidden items-center text-center gap-4 px-6 py-4 bg-lightgray/30 shadow-md mt-[72px]">
-          <a href="#">Home</a>
-          <a href="#">About Us</a>
-          <a href="#">Location</a>
-          <a href="#">Thrift Shop</a>
-        </nav>
+        <nav
+        className={`fixed top-[72px] left-0 w-full flex flex-col md:hidden items-center font-kopik text-center gap-4 px-6 py-4 shadow-md z-40 transition-colors duration-300 ${
+          isScrolled ? "bg-[#FAEADD85]" : "bg-[#FAEADD]"
+        }`}
+      >
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Location</a>
+        <a href="#">Thrift Shop</a>
+      </nav>      
+      
       )}
     </>
   );

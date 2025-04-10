@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         lemon: ['Lemon Milk', 'sans-serif'],
+        kopik: ['Kopik', 'sans-serif'],
       },
     },
   },
