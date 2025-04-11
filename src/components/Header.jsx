@@ -36,7 +36,7 @@ export default function Header() {
           <Link to="/" className="hover:underline">Home</Link>
           <Link to="/aboutUs" className="hover:underline">About Us</Link>
           <Link to="/location" className="hover:underline">Location</Link>
-          <a href="#">Thrift Shop</a>
+          <Link to="/thriftShop" className="hover:underline">Thrift Shop</Link>
         </nav>
       </header>
 
@@ -47,10 +47,10 @@ export default function Header() {
         }`}
       >
         <Link to="/" className="hover:underline">Home</Link>
-        <a href="#">About Us</a>
+        <Link to="/aboutUs" className="hover:underline">About Us</Link>
         <Link to="/location" className="hover:underline">Location</Link>
-        <a href="#">Thrift Shop</a>
-      </nav>      
+        <Link to="/thriftShop" className="hover:underline">Thrift Shop</Link>
+        </nav>      
       
       )}
     </>
