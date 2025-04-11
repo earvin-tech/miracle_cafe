@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -32,9 +33,9 @@ export default function Header() {
         </button>
 
         <nav className="hidden md:flex gap-6 font-kopik text-black-700">
-          <a href="#">Home</a>
+          <Link to="/" className="hover:underline">Home</Link>
           <a href="#">About Us</a>
-          <a href="#">Location</a>
+          <Link to="/location" className="hover:underline">Location</Link>
           <a href="#">Thrift Shop</a>
         </nav>
       </header>
@@ -45,9 +46,9 @@ export default function Header() {
           isScrolled ? "bg-[#FAEADD85]" : "bg-[#FAEADD85]"
         }`}
       >
-        <a href="#">Home</a>
+        <Link to="/" className="hover:underline">Home</Link>
         <a href="#">About Us</a>
-        <a href="#">Location</a>
+        <Link to="/location" className="hover:underline">Location</Link>
         <a href="#">Thrift Shop</a>
       </nav>      
       
