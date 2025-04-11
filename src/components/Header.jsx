@@ -34,7 +34,7 @@ export default function Header() {
 
         <nav className="hidden md:flex gap-6 font-kopik text-black-700">
           <Link to="/" className="hover:underline">Home</Link>
-          <a href="#">About Us</a>
+          <Link to="/aboutUs" className="hover:underline">About Us</Link>
           <Link to="/location" className="hover:underline">Location</Link>
           <a href="#">Thrift Shop</a>
         </nav>
