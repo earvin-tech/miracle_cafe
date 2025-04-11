@@ -42,7 +42,7 @@ export default function Header() {
       {menuOpen && (
         <nav
         className={`fixed top-[72px] left-0 w-full flex flex-col md:hidden items-center font-kopik text-center gap-4 px-6 py-4 shadow-md z-40 transition-colors duration-300 ${
-          isScrolled ? "bg-[#FAEADD85]" : "bg-[#FAEADD]"
+          isScrolled ? "bg-[#FAEADD85]" : "bg-[#FAEADD85]"
         }`}
       >
         <a href="#">Home</a>

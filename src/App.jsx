@@ -1,15 +1,16 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import LandingImage from "./components/LandingImage";
+import HeroImage from "./components/HeroImage";
 import Carousel from "./components/Carousel";
+import SiteIntro from "./components/Intro";
 
 export default function App() {
   return (
     <div className="min-h-screen bg-gray-100 font-sans" >
       <Header />
-      <LandingImage />
+      <HeroImage />
+      <SiteIntro />
       <Carousel />
-      <h1 className="text-center mt-10 mb-10" >Check Out Our Instagram!</h1>
       <Footer />
     </div>
   );
