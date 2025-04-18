@@ -17,7 +17,7 @@ export default function Footer() {
           {/* Logo & Social Icons Center Column */}
           <div className="centerContent flex flex-col items-center gap-y-4">
             <img
-              src="/site_images/footer_image.png"
+              src="/site_images/favicon_icon.png"
               alt="Miracle Cafe logo"
               className="w-20 h-20 object-contain"
             />

@@ -19,7 +19,7 @@ export default function Header() {
     <>
       <header
         className={`fixed top-0 left-0 w-full z-50 flex items-center justify-between px-6 py-4 transition-colors duration-300 ${
-          isScrolled ? "bg-[#FAEADD85] shadow-md" : "bg-[#FAEADD]"
+          isScrolled ? "bg-[#FAEADD] shadow-md" : "bg-[#FAEADD85]"
         }`}
       >
         {/* <h1 className="text-xl font-lemon text-black-800">Miracle Cafe</h1> */}
