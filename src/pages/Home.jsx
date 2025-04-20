@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import HeroImage from "../components/HeroImage";
 import Carousel from "../components/Carousel";
 import SiteIntro from "../components/Intro";
+import Harlequin from "../components/Harlequin";
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
           <HeroImage />
           <SiteIntro />
           <Carousel />
+          <Harlequin />
           <Footer />
         </div>
       );
