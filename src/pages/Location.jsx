@@ -5,7 +5,7 @@ export default function Location() {
     return (
         <div>    
             <Header />  
-            <div className="w-full min-h-screen flex flex-col items-center justify-center px-4 py-16">
+            <div className="w-full min-h-screen flex flex-col items-center justify-center px-4 py-16 mt-5">
                 <h2 className="text-3xl font-bold font-lemon mb-4 text-center">Visit Us</h2>
         
                 {/* Address */}
