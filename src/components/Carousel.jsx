@@ -27,7 +27,7 @@ export default function Carousel() {
   };
 
   return (
-    <div className="w-[90vw] h-[85vh] max-w-4xl mx-auto relative overflow-hidden rounded-2xl shadow-md mt-8 bg-black">
+    <div className="w-[90vw] h-[85vh] max-w-4xl mx-auto relative overflow-hidden rounded-2xl shadow-md my-8 bg-black">
       {/* Images */}
       <div
         className="flex h-full transition-transform duration-300"

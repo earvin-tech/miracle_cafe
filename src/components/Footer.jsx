@@ -49,9 +49,9 @@ export default function Footer() {
           {/* Contact Info */}
           <div className="contactUs text-center sm:text-right">
             <p className="font-semibold font-lemon">Contact Us!</p>
-            <p className="font-kopik">Mobile: 0494 349 894</p>
+            <p className="font-kopik">📞 0494 349 894</p>
             <p className="font-kopik">
-              Address: 6/54-58 Kilby Rd
+            📍 6/54-58 Kilby Rd
               <br/>
               Kew East
               <br/> 
