@@ -26,8 +26,9 @@ export default function About() {
           </p>
         </motion.div>
 
-        <motion.div
-          className="bg-gray-300 w-full h-64 rounded-xl shadow"
+        <motion.img
+          src="/site_images/monochrome_window.jpg"
+          className="bg-gray-300 w-full h-400 rounded-xl shadow"
           variants={fadeIn}
           initial="hidden"
           whileInView="visible"
@@ -53,8 +54,9 @@ export default function About() {
             </p>
         </motion.div>
 
-        <motion.div
-            className="bg-gray-300 w-full h-64 rounded-xl shadow"
+        <motion.img
+            src="/site_images/espresso_pour.jpg"
+            className="bg-gray-300 w-full h-400 rounded-xl shadow"
             variants={fadeIn}
             initial="hidden"
             whileInView="visible"
@@ -81,8 +83,9 @@ export default function About() {
           </p>
         </motion.div>
 
-        <motion.div
-          className="bg-gray-300 w-full h-64 rounded-xl shadow"
+        <motion.img
+          src="/site_images/sunset.jpg"
+          className="bg-gray-300 w-full h-400 rounded-xl shadow"
           variants={fadeIn}
           initial="hidden"
           whileInView="visible"

@@ -6,8 +6,9 @@ const images = [
   "/site_images/cafe_outdoor.jpg",
   "/site_images/coffee_beans_&_cups.png",
   "/site_images/flower.jpg",
-  "/site_images/monochrome_window.jpg",
-  "/site_images/dark_background.jpg"
+  "/site_images/dark_background.jpg",
+  "/site_images/sberry_matcha.jpg",
+  "site_images/menu_window.jpg"
 ];
 
 export default function Carousel() {
